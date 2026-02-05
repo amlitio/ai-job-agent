@@ -1,0 +1,27 @@
+{
+  "name": "ai-job-agent",
+  "version": "1.0.0",
+  "description": "AI Agent that reads resumes and fills job applications using Vibe Scraping",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc"
+  },
+  "keywords": ["ai", "automation", "stagehand", "playwright"],
+  "author": "AI Engineer",
+  "license": "ISC",
+  "dependencies": {
+    "@browserbasehq/stagehand": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.28.0",
+    "pdf-parse": "^1.1.1",
+    "playwright": "^1.41.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/pdf-parse": "^1.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
